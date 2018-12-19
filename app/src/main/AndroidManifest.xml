@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".GecmisTanilar"
+            android:label="@string/IkinciEkranName">
+            <intent-filter>
+                <action android:name="android.intent.action.GECMISTANILAR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TaniKoyma"></activity>
     </application>
 
 </manifest>

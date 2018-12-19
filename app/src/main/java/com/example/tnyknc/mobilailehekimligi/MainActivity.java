@@ -1,5 +1,6 @@
 package com.example.tnyknc.mobilailehekimligi;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,25 +9,24 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    //Global Değişkenleri Tanımladım.
-    Button btnGecmisTanilar;
-    int sayi=67;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
 
-        //Değişken-activity_main.xml bağlantısı
-        btnGecmisTanilar=findViewById(R.id.btnGecmisTanilar);
+    public void MainTiklandi(View v){
+        if(v.getId()==R.id.btnGecmisTanilar){
+            //Geçmiş Tanılar Ekranına Geçilecek.
+            Intent intent = new Intent(getApplicationContext(),GecmisTanilar.class);
+            startActivity(intent);
+        }
+        if(v.getId()==R.id.btnTaniKoyma){
+            Intent intent = new Intent(getApplicationContext(),TaniKoyma.class);
+            startActivity(intent);
 
-        //Click Olayı
-        btnGecmisTanilar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                btnGecmisTanilar.setText("Değiştirildi :) " + sayi);
-            }
-        });
+        }
 
     }
+
 }

@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Mobil Aile Hekimliği</string>
+    #Main Activity Stringleri
     <string name="btnGecmisTanilar">Geçmiş Tanılar</string>
     <string name="btnTaniKoyma">Tanı Koyma</string>
     <string name="btnYazilanIlaclar">Yazılan İlaçlar</string>
     <string name="btnVurulanIgneler">Vurulan İğneler</string>
     <string name="btnHekimBilgileri">Hekim Bilgileri</string>
+
+    <string name="IkinciEkranName">İkinci Ekran</string>
 </resources>
