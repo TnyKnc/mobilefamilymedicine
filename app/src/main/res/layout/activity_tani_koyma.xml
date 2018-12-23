@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Baş Ağrısı"/>
+                android:text="Baş Dönmesi"/>
 
             <LinearLayout
                 android:gravity="center"
@@ -113,7 +113,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Baş Ağrısı"/>
+                android:text="Mide Bulantısı"/>
 
             <LinearLayout
                 android:gravity="center"
@@ -147,7 +147,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Baş Ağrısı"/>
+                android:text="Karın Ağrısı"/>
 
             <LinearLayout
                 android:gravity="center"
@@ -181,7 +181,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Baş Ağrısı"/>
+                android:text="Göz Kararması"/>
 
             <LinearLayout
                 android:gravity="center"
@@ -215,7 +215,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Baş Ağrısı"/>
+                android:text="Yüksek Ateş"/>
 
             <LinearLayout
                 android:gravity="center"
@@ -249,7 +249,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Baş Ağrısı"/>
+                android:text="Burun Akıntısı"/>
 
             <LinearLayout
                 android:gravity="center"
@@ -283,7 +283,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Baş Ağrısı"/>
+                android:text="Halsizlik Yorgunluk"/>
 
             <LinearLayout
                 android:gravity="center"
@@ -317,7 +317,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Baş Ağrısı"/>
+                android:text="İştahsızlık"/>
 
             <LinearLayout
                 android:gravity="center"
@@ -351,7 +351,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Baş Ağrısı"/>
+                android:text="Kulak Ağrısı"/>
 
             <LinearLayout
                 android:gravity="center"
@@ -420,5 +420,6 @@
     </LinearLayout>
 
         </LinearLayout>
+
     </ScrollView>
 </LinearLayout>
