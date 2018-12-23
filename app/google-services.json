@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "996696814348",
+    "firebase_url": "https://tibbi-odev.firebaseio.com",
+    "project_id": "tibbi-odev",
+    "storage_bucket": "tibbi-odev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996696814348:android:a2bf7e1062794f16",
+        "android_client_info": {
+          "package_name": "com.example.tnyknc.mobilailehekimligi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996696814348-ld3s1bonp2pokvkma0nqqf2o9qke5is1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tnyknc.mobilailehekimligi",
+            "certificate_hash": "5f5294987b2be21860c8686f5a82087aa4a614df"
+          }
+        },
+        {
+          "client_id": "996696814348-unjp8fhrrljlpv5qagijp5kd2ip3468m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_cX_KhHBzb-7DuKjq5WiPGX7bdlQah5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996696814348-unjp8fhrrljlpv5qagijp5kd2ip3468m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
